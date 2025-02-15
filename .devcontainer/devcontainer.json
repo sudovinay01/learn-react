@@ -1,6 +1,7 @@
 {
     "name": "React tutorial",
-    "dockerFile": "Dockerfile",
+    "image": "node:22.14.0",
+    "postCreateCommand": ".devcontainer/post-create-commands.sh",
     "postAttachCommand": "bash .devcontainer/post-attach-commands.sh",
     "customizations": {
         "vscode": {
@@ -9,5 +10,6 @@
                 "dbaeumer.vscode-eslint"
             ]
         }
-    }
+    },
+    "remoteUser": "node"
 }

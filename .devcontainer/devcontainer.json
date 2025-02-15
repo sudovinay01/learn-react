@@ -1,6 +1,7 @@
 {
     "name": "React tutorial",
     "dockerFile": "Dockerfile",
+    "postAttachCommand": "bash .devcontainer/post-attach-commands.sh",
     "customizations": {
         "vscode": {
             "extensions": [

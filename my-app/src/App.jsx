@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <a href="https://containers.dev/" target="_blank">
-          <img src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/remote-containers/0.398.0/1738859433725/Microsoft.VisualStudio.Services.Icons.Default" className="logo dev container" alt="Dev container logo" />
+          <img src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/remote-containers/0.398.0/1738859433725/Microsoft.VisualStudio.Services.Icons.Default" className="logo devcontainer" alt="Dev container logo" />
         </a>
       </div>
       <h1>Vite + React + Dev Containers</h1>

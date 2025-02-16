@@ -11,13 +11,12 @@ function App() {
         </p>
         <p>This dev environment is enable with dev continer.</p>
         <a
-          className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+        ><button className="App-link">
           Learn React
-        </a>
+          </button></a>
       </header>
     </div>
   );

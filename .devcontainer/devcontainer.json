@@ -1,7 +1,7 @@
 {
     "name": "React tutorial",
     "image": "node:22.14.0",
-    "postCreateCommand": ".devcontainer/post-create-commands.sh",
+    "postCreateCommand": "bash .devcontainer/post-create-commands.sh",
     "postAttachCommand": "bash .devcontainer/post-attach-commands.sh",
     "customizations": {
         "vscode": {
